@@ -36,7 +36,7 @@ const renderContent = {
     <InfoBox
       text="Looking for a dev? I'm just few clicks aways."
       link="/contact"
-      btnText="Ping me."
+      btnText="Let's Connect."
     />
   ),
 };
