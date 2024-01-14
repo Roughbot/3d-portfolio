@@ -23,7 +23,7 @@ const Contact = () => {
     e.preventDefault();
     setIsLoading(true);
     emailjs
-      .sendForm(
+      .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
@@ -37,12 +37,17 @@ const Contact = () => {
       )
       .then(() => {
         setIsLoading(false);
+        setForm({ name: "", email: "", message: "" });
+      })
+      .catch((error) => {
+        setIsLoading(false);
+        console.log(error);
       });
   };
 
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
-      <duv className="flex-1 min-w-[50%] flex-col ">
+      <div className="flex-1 min-w-[50%] flex-col ">
         <h1 className="head-text">Get in Touch</h1>
 
         <form
@@ -101,7 +106,7 @@ const Contact = () => {
             {isLoading ? "Sending..." : "Connect"}
           </button>
         </form>
-      </duv>
+      </div>
     </section>
   );
 };
