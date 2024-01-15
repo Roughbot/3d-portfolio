@@ -20,9 +20,9 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text="Want to know more about me and Check out my skills."
+      text="Want to know more about me, Check out my skills."
       link="/about"
-      btnText="Go on and Click"
+      btnText="Go on Click here."
     />
   ),
   3: (
