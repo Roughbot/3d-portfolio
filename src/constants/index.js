@@ -1,35 +1,53 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { tesla } from "../assets/images";
+import cyberhost from "../assets/images/cyberhost.png";
 import {
   car,
   contact,
-  css,
-  estate,
   express,
   git,
   github,
-  html,
   javascript,
   linkedin,
   mongodb,
-  motion,
-  mui,
   nextjs,
   nodejs,
   pricewise,
   react,
-  redux,
   sass,
-  snapgram,
-  summiz,
   tailwindcss,
   threads,
   typescript,
 } from "../assets/icons";
+import linux from "../assets/icons/linux.svg";
+import python from "../assets/icons/python.svg";
+import java from "../assets/icons/java.svg";
+import docker from "../assets/icons/docker.svg";
+import api from "../assets/icons/api.svg";
 
 export const skills = [
   {
+    imageUrl: python,
+    name: "Python",
+    type: "Programming",
+  },
+  {
+    imageUrl: java,
+    name: "Java",
+    type: "Programming",
+  },
+  {
+    imageUrl: linux,
+    name: "linux",
+    type: "Environment",
+  },
+  {
     imageUrl: express,
     name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: docker,
+    name: "Docker",
     type: "Backend",
   },
   {
@@ -41,6 +59,11 @@ export const skills = [
     imageUrl: github,
     name: "GitHub",
     type: "Version Control",
+  },
+  {
+    imageUrl: api,
+    name: "API",
+    type: "Backend",
   },
 
   {
@@ -69,11 +92,6 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: redux,
-    name: "Redux",
-    type: "State Management",
-  },
-  {
     imageUrl: sass,
     name: "Sass",
     type: "Frontend",
@@ -94,7 +112,7 @@ export const experiences = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
-    icon: starbucks,
+    icon: cyberhost,
     iconBg: "#accbe1",
     date: "March 2020 - April 2021",
     points: [
