@@ -110,11 +110,11 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Cyber Security Intern",
+    company_name: "THECYBERHOST",
     icon: cyberhost,
     iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    date: "September 2023 - October 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
