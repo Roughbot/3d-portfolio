@@ -226,6 +226,6 @@ export const projects = [
     name: "3D Portfolio",
     description:
       "A 3D Portfolio profile page made with react+threeJS, Animating 3D models in real time.",
-    link: " https://github.com/Roughbot/3d-portfolio",
+    link: "https://github.com/Roughbot/3d-portfolio",
   },
 ];
