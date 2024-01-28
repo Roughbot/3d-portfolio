@@ -1,4 +1,3 @@
-import { tesla } from "../assets/images";
 import cyberhost from "../assets/images/cyberhost.png";
 import {
   car,
@@ -13,16 +12,26 @@ import {
   nodejs,
   pricewise,
   react,
+  redux,
   sass,
   tailwindcss,
+  html,
   threads,
+  summiz,
+  password,
   typescript,
+  snapgram,
+  motion,
+  linux,
+  python,
+  java,
+  docker,
+  login,
+  profile,
+  leetcode,
+  api,
+  gmail,
 } from "../assets/icons";
-import linux from "../assets/icons/linux.svg";
-import python from "../assets/icons/python.svg";
-import java from "../assets/icons/java.svg";
-import docker from "../assets/icons/docker.svg";
-import api from "../assets/icons/api.svg";
 
 export const skills = [
   {
@@ -92,6 +101,11 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: redux,
+    name: "Redux",
+    type: "Frontend",
+  },
+  {
     imageUrl: sass,
     name: "Sass",
     type: "Frontend",
@@ -99,6 +113,16 @@ export const skills = [
   {
     imageUrl: tailwindcss,
     name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: motion,
+    name: "Framer Motion",
     type: "Frontend",
   },
   {
@@ -114,57 +138,94 @@ export const experiences = [
     company_name: "THECYBERHOST",
     icon: cyberhost,
     iconBg: "#accbe1",
-    date: "September 2023 - October 2023",
+    date: "August 2023 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Identified and Proposed fixes for security vulnerabilities in various applications.",
+      "Conducted vulnerability assessments and penetration testing.",
+      "Participated in training sessions and completing assigned projects on time.",
+      "Staying updated with the latest cyber threats, trends, and best practices.",
     ],
   },
 ];
 
 export const socialLinks = [
   {
-    name: "Contact",
-    iconUrl: contact,
-    link: "/contact",
-  },
-  {
-    name: "GitHub",
+    name: "github",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/roughbot",
   },
   {
-    name: "LinkedIn",
+    name: "gmail",
+    iconUrl: gmail,
+    link: "mailto:sathyanarayanan.pramod@gmail.com",
+  },
+  {
+    name: "linkedin",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/sathyanarayananpramod/",
+  },
+  {
+    name: "letcode",
+    iconUrl: leetcode,
+    link: "https://leetcode.com/Cyber_hOX/",
   },
 ];
 
 export const projects = [
   {
-    iconUrl: threads,
+    iconUrl: summiz,
     theme: "btn-back-red",
-    name: "Authentication App",
+    name: "Summify",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Developed an web app using OpenAI GPT-4 to generate concise summaries for long blog content. With this tool, you can save time and effort by quickly extracting the key points from lengthy articles, allowing you to grasp the main concepts without having to read the entire text.",
+    link: "https://github.com/Roughbot/summify",
   },
   {
     iconUrl: pricewise,
     theme: "btn-back-green",
     name: "E-Commerce Website",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "The aim of this project is to develop an online shopping platform that provides a seamless shopping experience for users. The platform offers a wide range of products including hats, jackets, sneakers, and clothing for both men and women.",
+    link: "https://github.com/Roughbot/e-commerce-cloth-shop",
   },
   {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Car Finding App",
+    iconUrl: login,
+    theme: "btn-back-black",
+    name: "Authentication App",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "Designed and built a fully functional Authentication app using NextJS, allows you to register and login to your account. Added additional functionality such as forgot password, reset password, and email verification.",
+    link: "https://github.com/Roughbot/Auth-app",
+  },
+  {
+    iconUrl: threads,
+    theme: "btn-back-blue",
+    name: "Quote Generator",
+    description:
+      "Design and build an inspirational Quote-Generator that generates different quotes randomly, which can be downloaded in an image format.",
+    link: "https://github.com/Roughbot/Quote-Generator",
+  },
+  {
+    iconUrl: snapgram,
+    theme: "btn-back-yellow",
+    name: "Anime Universe",
+    description:
+      "Developed an Web app using NextJS that implement infinite loading and searching functionality using Server Action and Framer-Motion.",
+    link: "https://github.com/Roughbot/Anime-Universe",
+  },
+  {
+    iconUrl: password,
+    theme: "btn-back-orange",
+    name: "Password Generator",
+    description:
+      "Developed an Web application using react that allows users to create strong passwords with various combinations of characters, including uppercase and lowercase letters, symbols, and numbers.",
+    link: "https://github.com/Roughbot/Password-Generator",
+  },
+  {
+    iconUrl: profile,
+    theme: "btn-back-pink",
+    name: "3D Portfolio",
+    description:
+      "A 3D Portfolio profile page made with react+threeJS, Animating 3D models in real time.",
+    link: " https://github.com/Roughbot/3d-portfolio",
   },
 ];

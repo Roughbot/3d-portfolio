@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-
 const Navbar = () => {
   return (
     <header className="header">
@@ -13,7 +12,7 @@ const Navbar = () => {
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            isActive ? "text-blue-500" : "text-black"
+            isActive ? "blue-gradient_text" : "text-black"
           }
         >
           About
