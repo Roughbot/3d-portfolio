@@ -174,14 +174,6 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: admin,
-    theme: "btn-back-yellow",
-    name: "Admin-dashboard",
-    description:
-      "Designed and developed a fully functional Admin Dashboard using React, Redux, and Tailwind CSS. The dashboard provides a user-friendly interface for managing and monitoring the application's data and resources. It includes features such as user management, data visualization.",
-    link: "https://github.com/Roughbot/Admin-Dashboard",
-  },
-  {
     iconUrl: summiz,
     theme: "btn-back-red",
     name: "Summify",
@@ -236,5 +228,13 @@ export const projects = [
     description:
       "A 3D Portfolio profile page made with react+threeJS, Animating 3D models in real time.",
     link: "https://github.com/Roughbot/3d-portfolio",
+  },
+  {
+    iconUrl: admin,
+    theme: "btn-back-yellow",
+    name: "Admin-dashboard",
+    description:
+      "Designed and developed a fully functional Admin Dashboard using React, Redux, and Tailwind CSS. The dashboard provides a user-friendly interface for managing and monitoring the application's data and resources. It includes features such as user management, data visualization.",
+    link: "https://github.com/Roughbot/Admin-Dashboard",
   },
 ];
