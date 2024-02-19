@@ -36,7 +36,9 @@ import login from "./login.svg";
 import profile from "./profile.svg";
 import gmail from "./gmail.svg";
 import leetcode from "./leetcode.svg";
+import admin from "./admin.svg";
 export {
+  admin,
   leetcode,
   profile,
   gmail,

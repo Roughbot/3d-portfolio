@@ -1,5 +1,6 @@
 import cyberhost from "../assets/images/cyberhost.png";
 import {
+  admin,
   car,
   contact,
   express,
@@ -172,6 +173,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: admin,
+    theme: "btn-back-yellow",
+    name: "Admin-dashboard",
+    description:
+      "Designed and developed a fully functional Admin Dashboard using React, Redux, and Tailwind CSS. The dashboard provides a user-friendly interface for managing and monitoring the application's data and resources. It includes features such as user management, data visualization.",
+    link: "https://github.com/Roughbot/Admin-Dashboard",
+  },
   {
     iconUrl: summiz,
     theme: "btn-back-red",
