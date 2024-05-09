@@ -1,4 +1,5 @@
 import cyberhost from "../assets/images/cyberhost.png";
+import RHV from "../assets/images/RHV.png";
 import {
   admin,
   car,
@@ -124,6 +125,19 @@ export const skills = [
 ];
 
 export const experiences = [
+    {
+    title: "Web Developer",
+    company_name: "Right Hand Venture",
+    icon: RHV,
+    iconBg: "#accbe1",
+    date: "Febuary 2024 - May 2024",
+    points: [
+      "Build the company's portfolio website all by myself",
+      "Integrated Live support chat feature",
+      "Achieved more than 80% performance in the website",
+      "Incorporated eye-catching animations to enhance the website's design and user experience",
+    ],
+  },
   {
     title: "Cyber Security Intern",
     company_name: "THECYBERHOST",
